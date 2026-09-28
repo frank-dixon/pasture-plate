@@ -1,52 +1,1324 @@
 [
-  {"id":"dandelion","name":"Dandelion","scientific":"Taraxacum officinale","aliases":["lion's tooth"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and flowers","why":"A familiar forage plant; wash well and offer as part of a varied diet.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"plantain","name":"Broadleaf plantain","scientific":"Plantago major","aliases":["greater plantain"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves","why":"Common pasture forage. Confirm the plant identity and avoid roadsides or treated lawns.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"white-clover","name":"White clover","scientific":"Trifolium repens","aliases":["Dutch clover"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves and flowers","why":"Can be forage, but large fresh amounts may upset digestion; introduce gradually and keep it varied.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"red-clover","name":"Red clover","scientific":"Trifolium pratense","aliases":["meadow clover"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves and flowers","why":"Use moderation with any legume forage and avoid moldy or fermented material.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"chickweed","name":"Chickweed","scientific":"Stellaria media","aliases":["starwort"],"status":{"rabbit":"safe","hen":"safe"},"part":"Young leaves and stems","why":"Often used as a fresh green; identify carefully because common names vary.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"raspberry","name":"Raspberry","scientific":"Rubus idaeus","aliases":["raspberry leaf"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and fruit","why":"Leaves can be offered as a forage green; fruit is a treat, not a staple.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"strawberry","name":"Strawberry","scientific":"Fragaria × ananassa","aliases":["strawberry leaf"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and fruit","why":"Leaves are a forage option; fruit is sugary and should stay occasional.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"willow","name":"Willow","scientific":"Salix spp.","aliases":["pussy willow"],"status":{"rabbit":"safe","hen":"safe"},"part":"Unsprayed twigs and leaves","why":"A common browse material. Never collect from a sprayed, roadside, or contaminated area.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"rose","name":"Rose","scientific":"Rosa spp.","aliases":["rose petals"],"status":{"rabbit":"safe","hen":"safe"},"part":"Petals and leaves","why":"Petals and leaves may be offered only when free of pesticide, florist chemicals, and thorns.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"calendula","name":"Calendula","scientific":"Calendula officinalis","aliases":["pot marigold"],"status":{"rabbit":"safe","hen":"safe"},"part":"Flowers and leaves","why":"A garden herb commonly used as a small forage addition; use only untreated plants.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"nasturtium","name":"Nasturtium","scientific":"Tropaeolum majus","aliases":["garden nasturtium"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves and flowers","why":"Peppery garden plant; offer only small amounts and watch for digestive upset.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"sunflower","name":"Sunflower","scientific":"Helianthus annuus","aliases":["sunflower leaf"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and seeds","why":"Leaves can be forage; seeds are energy-dense and should be an occasional treat.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"basil","name":"Basil","scientific":"Ocimum basilicum","aliases":["sweet basil"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves","why":"A culinary herb suitable as a small fresh green when unsprayed.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"cilantro","name":"Cilantro","scientific":"Coriandrum sativum","aliases":["coriander leaf"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves","why":"A culinary herb that can add variety to fresh greens.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"parsley","name":"Parsley","scientific":"Petroselinum crispum","aliases":["flat-leaf parsley"],"status":{"rabbit":"caution","hen":"safe"},"part":"Leaves","why":"Nutrient-dense herb; use as a small part of a varied diet rather than a main green.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"dill","name":"Dill","scientific":"Anethum graveolens","aliases":["dill weed"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and flowers","why":"A culinary herb that can be offered fresh and unsprayed.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"mint","name":"Mint","scientific":"Mentha spp.","aliases":["peppermint","spearmint"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves","why":"A fragrant herb suitable for variety; avoid essential oils and treated cuttings.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"oregano","name":"Oregano","scientific":"Origanum vulgare","aliases":["wild marjoram"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves","why":"Offer as a small fresh herb, not concentrated oil or supplement.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"thyme","name":"Thyme","scientific":"Thymus vulgaris","aliases":["garden thyme"],"status":{"rabbit":"safe","hen":"safe"},"part":"Leaves and stems","why":"A culinary herb for occasional variety; never substitute essential oil for a plant.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"sage","name":"Sage","scientific":"Salvia officinalis","aliases":["garden sage"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves","why":"Strong culinary herb; keep portions small and skip concentrated preparations.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"wheatgrass","name":"Wheatgrass","scientific":"Triticum aestivum","aliases":["wheat sprouts"],"status":{"rabbit":"safe","hen":"safe"},"part":"Young grass","why":"Young grass can fit a varied forage routine; introduce fresh greens slowly.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"oats","name":"Oat grass","scientific":"Avena sativa","aliases":["oat forage"],"status":{"rabbit":"safe","hen":"safe"},"part":"Young grass and grain","why":"A familiar forage grain; avoid spoiled, moldy, or chemically treated material.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"barley","name":"Barley grass","scientific":"Hordeum vulgare","aliases":["barley forage"],"status":{"rabbit":"safe","hen":"safe"},"part":"Young grass and grain","why":"Can be part of forage variety; keep the overall diet balanced.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"timothy","name":"Timothy grass","scientific":"Phleum pratense","aliases":["timothy hay"],"status":{"rabbit":"safe","hen":"safe"},"part":"Grass and hay","why":"A staple grass hay for many rabbits; hay quality and cleanliness matter.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"orchard-grass","name":"Orchard grass","scientific":"Dactylis glomerata","aliases":["cock's-foot grass"],"status":{"rabbit":"safe","hen":"safe"},"part":"Grass and hay","why":"A grass forage option when harvested cleanly and stored dry.","level":"simple","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"alfalfa","name":"Alfalfa","scientific":"Medicago sativa","aliases":["lucerne"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves and hay","why":"Rich in protein and calcium; life stage and the rest of the ration matter, especially for adult rabbits.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"kale","name":"Kale","scientific":"Brassica oleracea var. acephala","aliases":["leaf kale"],"status":{"rabbit":"caution","hen":"safe"},"part":"Leaves","why":"Can be a green, but rotate brassicas and introduce gradually to reduce digestive upset.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"cabbage","name":"Cabbage","scientific":"Brassica oleracea var. capitata","aliases":["head cabbage"],"status":{"rabbit":"caution","hen":"safe"},"part":"Leaves","why":"Offer as part of rotation and in modest amounts; discard wilted or spoiled leaves.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"spinach","name":"Spinach","scientific":"Spinacia oleracea","aliases":["baby spinach"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves","why":"Oxalate-rich greens are best rotated and kept occasional rather than used as a staple.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"beet-greens","name":"Beet greens","scientific":"Beta vulgaris","aliases":["beet tops"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves","why":"Rotate with other greens; do not let one leafy vegetable dominate the diet.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"sorrel","name":"Sorrel","scientific":"Rumex acetosa","aliases":["garden sorrel"],"status":{"rabbit":"caution","hen":"caution"},"part":"Leaves","why":"Sour, oxalate-containing leaves are a poor staple; keep occasional or skip.","level":"advanced","sources":["rabbit-diet","poultry-feed"]},
-  {"id":"comfrey","name":"Comfrey","scientific":"Symphytum officinale","aliases":["common comfrey"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Contains pyrrolizidine alkaloids associated with liver injury; do not use as feed.","level":"advanced","sources":["merck-plants","aspca-toxic"]},
-  {"id":"tomato","name":"Tomato leaves","scientific":"Solanum lycopersicum","aliases":["tomato vine"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Leaves and stems","why":"Green plant parts contain toxic glycoalkaloids; keep vines away from animals.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"potato","name":"Potato leaves","scientific":"Solanum tuberosum","aliases":["potato vine"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Leaves, stems, and green tubers","why":"Green plant parts can contain solanine and related glycoalkaloids; do not feed.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"rhubarb","name":"Rhubarb leaves","scientific":"Rheum rhabarbarum","aliases":["rhubarb tops"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Leaves","why":"Leaves contain soluble oxalates and are not a safe forage choice.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"avocado","name":"Avocado","scientific":"Persea americana","aliases":["avocado plant"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Fruit, leaves, pit, and bark","why":"Persin and the high-fat fruit make this an avoid; keep the whole plant away.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"onion","name":"Onion","scientific":"Allium cepa","aliases":["bulb onion"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Allium plants can damage red blood cells in susceptible animals; do not offer as forage.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"garlic","name":"Garlic","scientific":"Allium sativum","aliases":["garlic greens"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"A concentrated Allium; avoid bulbs, greens, powders, and supplements.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"foxglove","name":"Foxglove","scientific":"Digitalis purpurea","aliases":["digitalis"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Cardiac glycosides make this a serious poisoning risk; remove it from accessible areas.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"oleander","name":"Oleander","scientific":"Nerium oleander","aliases":["rosebay"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Highly toxic cardiac glycosides occur throughout the plant, including dried material.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"lily-of-the-valley","name":"Lily of the valley","scientific":"Convallaria majalis","aliases":["May lily"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Cardiac glycosides make every part unsafe; keep clippings and berries away.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"yew","name":"Yew","scientific":"Taxus spp.","aliases":["English yew"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Needles, bark, and seeds","why":"Taxines can cause sudden, severe poisoning; never add hedge clippings to forage.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"azalea","name":"Azalea","scientific":"Rhododendron spp.","aliases":["garden azalea"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Grayanotoxins can affect the heart and nervous system; keep garden trimmings away.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"rhododendron","name":"Rhododendron","scientific":"Rhododendron spp.","aliases":["rosebay rhododendron"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Leaves and flowers contain grayanotoxins; do not allow browsing.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"nightshade","name":"Deadly nightshade","scientific":"Atropa belladonna","aliases":["belladonna"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts, especially berries","why":"Tropane alkaloids make this an emergency-level avoid; do not handle as forage.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"buttercup","name":"Buttercup","scientific":"Ranunculus spp.","aliases":["crowfoot"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Fresh plant","why":"Fresh buttercup sap is irritating and toxic; do not intentionally offer it.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"poison-hemlock","name":"Poison hemlock","scientific":"Conium maculatum","aliases":["hemlock"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts","why":"Piperidine alkaloids can cause severe neurologic poisoning; never collect uncertain umbellifers.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"jimsonweed","name":"Jimsonweed","scientific":"Datura stramonium","aliases":["thorn apple","devil's trumpet"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"All parts, especially seeds","why":"Anticholinergic alkaloids make this a dangerous pasture contaminant.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"castor-bean","name":"Castor bean","scientific":"Ricinus communis","aliases":["castor plant"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Seeds and plant","why":"Ricin in chewed seeds is highly dangerous; keep plants and seed heads inaccessible.","level":"advanced","sources":["aspca-toxic","merck-plants"]},
-  {"id":"lantana","name":"Lantana","scientific":"Lantana camara","aliases":["Spanish flag"],"status":{"rabbit":"avoid","hen":"avoid"},"part":"Leaves and berries","why":"Triterpenes can cause gastrointestinal and liver injury; keep trimmings away.","level":"advanced","sources":["aspca-toxic","merck-plants"]}
+  {
+    "id": "dandelion",
+    "name": "Dandelion",
+    "scientific": "Taraxacum officinale",
+    "aliases": [
+      "lion's tooth"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and flowers",
+    "why": "A familiar forage plant; wash well and offer as part of a varied diet.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "forage-weed",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "plantain",
+    "name": "Broadleaf plantain",
+    "scientific": "Plantago major",
+    "aliases": [
+      "greater plantain"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "Common pasture forage. Confirm the plant identity and avoid roadsides or treated lawns.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "forage-weed",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "white-clover",
+    "name": "White clover",
+    "scientific": "Trifolium repens",
+    "aliases": [
+      "Dutch clover"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves and flowers",
+    "why": "Can be forage, but large fresh amounts may upset digestion; introduce gradually and keep it varied.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "red-clover",
+    "name": "Red clover",
+    "scientific": "Trifolium pratense",
+    "aliases": [
+      "meadow clover"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves and flowers",
+    "why": "Use moderation with any legume forage and avoid moldy or fermented material.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "chickweed",
+    "name": "Chickweed",
+    "scientific": "Stellaria media",
+    "aliases": [
+      "starwort"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Young leaves and stems",
+    "why": "Often used as a fresh green; identify carefully because common names vary.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "forage-weed",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "raspberry",
+    "name": "Raspberry",
+    "scientific": "Rubus idaeus",
+    "aliases": [
+      "raspberry leaf"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and fruit",
+    "why": "Leaves can be offered as a forage green; fruit is a treat, not a staple.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "fruiting",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "scientific": "Fragaria × ananassa",
+    "aliases": [
+      "strawberry leaf"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and fruit",
+    "why": "Leaves are a forage option; fruit is sugary and should stay occasional.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "fruiting",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "willow",
+    "name": "Willow",
+    "scientific": "Salix spp.",
+    "aliases": [
+      "pussy willow"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Unsprayed twigs and leaves",
+    "why": "A common browse material. Never collect from a sprayed, roadside, or contaminated area.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "woody",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "scientific": "Rosa spp.",
+    "aliases": [
+      "rose petals"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Petals and leaves",
+    "why": "Petals and leaves may be offered only when free of pesticide, florist chemicals, and thorns.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "woody",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "calendula",
+    "name": "Calendula",
+    "scientific": "Calendula officinalis",
+    "aliases": [
+      "pot marigold"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Flowers and leaves",
+    "why": "A garden herb commonly used as a small forage addition; use only untreated plants.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "nasturtium",
+    "name": "Nasturtium",
+    "scientific": "Tropaeolum majus",
+    "aliases": [
+      "garden nasturtium"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves and flowers",
+    "why": "Peppery garden plant; offer only small amounts and watch for digestive upset.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "scientific": "Helianthus annuus",
+    "aliases": [
+      "sunflower leaf"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and seeds",
+    "why": "Leaves can be forage; seeds are energy-dense and should be an occasional treat.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "fruiting",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "scientific": "Ocimum basilicum",
+    "aliases": [
+      "sweet basil"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "A culinary herb suitable as a small fresh green when unsprayed.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "cilantro",
+    "name": "Cilantro",
+    "scientific": "Coriandrum sativum",
+    "aliases": [
+      "coriander leaf"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "A culinary herb that can add variety to fresh greens.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "scientific": "Petroselinum crispum",
+    "aliases": [
+      "flat-leaf parsley"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "Nutrient-dense herb; use as a small part of a varied diet rather than a main green.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "scientific": "Anethum graveolens",
+    "aliases": [
+      "dill weed"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and flowers",
+    "why": "A culinary herb that can be offered fresh and unsprayed.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "scientific": "Mentha spp.",
+    "aliases": [
+      "peppermint",
+      "spearmint"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "A fragrant herb suitable for variety; avoid essential oils and treated cuttings.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "scientific": "Origanum vulgare",
+    "aliases": [
+      "wild marjoram"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "Offer as a small fresh herb, not concentrated oil or supplement.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "scientific": "Thymus vulgaris",
+    "aliases": [
+      "garden thyme"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Leaves and stems",
+    "why": "A culinary herb for occasional variety; never substitute essential oil for a plant.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "scientific": "Salvia officinalis",
+    "aliases": [
+      "garden sage"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves",
+    "why": "Strong culinary herb; keep portions small and skip concentrated preparations.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "wheatgrass",
+    "name": "Wheatgrass",
+    "scientific": "Triticum aestivum",
+    "aliases": [
+      "wheat sprouts"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Young grass",
+    "why": "Young grass can fit a varied forage routine; introduce fresh greens slowly.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "oats",
+    "name": "Oat grass",
+    "scientific": "Avena sativa",
+    "aliases": [
+      "oat forage"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Young grass and grain",
+    "why": "A familiar forage grain; avoid spoiled, moldy, or chemically treated material.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "barley",
+    "name": "Barley grass",
+    "scientific": "Hordeum vulgare",
+    "aliases": [
+      "barley forage"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Young grass and grain",
+    "why": "Can be part of forage variety; keep the overall diet balanced.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy grass",
+    "scientific": "Phleum pratense",
+    "aliases": [
+      "timothy hay"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Grass and hay",
+    "why": "A staple grass hay for many rabbits; hay quality and cleanliness matter.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "orchard-grass",
+    "name": "Orchard grass",
+    "scientific": "Dactylis glomerata",
+    "aliases": [
+      "cock's-foot grass"
+    ],
+    "status": {
+      "rabbit": "safe",
+      "hen": "safe"
+    },
+    "part": "Grass and hay",
+    "why": "A grass forage option when harvested cleanly and stored dry.",
+    "level": "simple",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "alfalfa",
+    "name": "Alfalfa",
+    "scientific": "Medicago sativa",
+    "aliases": [
+      "lucerne"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves and hay",
+    "why": "Rich in protein and calcium; life stage and the rest of the ration matter, especially for adult rabbits.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "pasture-grass",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "kale",
+    "name": "Kale",
+    "scientific": "Brassica oleracea var. acephala",
+    "aliases": [
+      "leaf kale"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "Can be a green, but rotate brassicas and introduce gradually to reduce digestive upset.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "scientific": "Brassica oleracea var. capitata",
+    "aliases": [
+      "head cabbage"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "safe"
+    },
+    "part": "Leaves",
+    "why": "Offer as part of rotation and in modest amounts; discard wilted or spoiled leaves.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "scientific": "Spinacia oleracea",
+    "aliases": [
+      "baby spinach"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves",
+    "why": "Oxalate-rich greens are best rotated and kept occasional rather than used as a staple.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "annual",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "beet-greens",
+    "name": "Beet greens",
+    "scientific": "Beta vulgaris",
+    "aliases": [
+      "beet tops"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves",
+    "why": "Rotate with other greens; do not let one leafy vegetable dominate the diet.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "sorrel",
+    "name": "Sorrel",
+    "scientific": "Rumex acetosa",
+    "aliases": [
+      "garden sorrel"
+    ],
+    "status": {
+      "rabbit": "caution",
+      "hen": "caution"
+    },
+    "part": "Leaves",
+    "why": "Sour, oxalate-containing leaves are a poor staple; keep occasional or skip.",
+    "level": "advanced",
+    "sources": [
+      "rabbit-diet",
+      "poultry-feed"
+    ],
+    "category": "garden-green",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "comfrey",
+    "name": "Comfrey",
+    "scientific": "Symphytum officinale",
+    "aliases": [
+      "common comfrey"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Contains pyrrolizidine alkaloids associated with liver injury; do not use as feed.",
+    "level": "advanced",
+    "sources": [
+      "merck-plants",
+      "aspca-toxic"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato leaves",
+    "scientific": "Solanum lycopersicum",
+    "aliases": [
+      "tomato vine"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Leaves and stems",
+    "why": "Green plant parts contain toxic glycoalkaloids; keep vines away from animals.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "fruiting",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "potato",
+    "name": "Potato leaves",
+    "scientific": "Solanum tuberosum",
+    "aliases": [
+      "potato vine"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Leaves, stems, and green tubers",
+    "why": "Green plant parts can contain solanine and related glycoalkaloids; do not feed.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "fruiting",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "rhubarb",
+    "name": "Rhubarb leaves",
+    "scientific": "Rheum rhabarbarum",
+    "aliases": [
+      "rhubarb tops"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Leaves",
+    "why": "Leaves contain soluble oxalates and are not a safe forage choice.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "garden-green",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "scientific": "Persea americana",
+    "aliases": [
+      "avocado plant"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Fruit, leaves, pit, and bark",
+    "why": "Persin and the high-fat fruit make this an avoid; keep the whole plant away.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "woody",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "scientific": "Allium cepa",
+    "aliases": [
+      "bulb onion"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Allium plants can damage red blood cells in susceptible animals; do not offer as forage.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "garden-green",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "scientific": "Allium sativum",
+    "aliases": [
+      "garlic greens"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "A concentrated Allium; avoid bulbs, greens, powders, and supplements.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "herb",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "foxglove",
+    "name": "Foxglove",
+    "scientific": "Digitalis purpurea",
+    "aliases": [
+      "digitalis"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Cardiac glycosides make this a serious poisoning risk; remove it from accessible areas.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "oleander",
+    "name": "Oleander",
+    "scientific": "Nerium oleander",
+    "aliases": [
+      "rosebay"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Highly toxic cardiac glycosides occur throughout the plant, including dried material.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "lily-of-the-valley",
+    "name": "Lily of the valley",
+    "scientific": "Convallaria majalis",
+    "aliases": [
+      "May lily"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Cardiac glycosides make every part unsafe; keep clippings and berries away.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "yew",
+    "name": "Yew",
+    "scientific": "Taxus spp.",
+    "aliases": [
+      "English yew"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Needles, bark, and seeds",
+    "why": "Taxines can cause sudden, severe poisoning; never add hedge clippings to forage.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "woody",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "azalea",
+    "name": "Azalea",
+    "scientific": "Rhododendron spp.",
+    "aliases": [
+      "garden azalea"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Grayanotoxins can affect the heart and nervous system; keep garden trimmings away.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "rhododendron",
+    "name": "Rhododendron",
+    "scientific": "Rhododendron spp.",
+    "aliases": [
+      "rosebay rhododendron"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Leaves and flowers contain grayanotoxins; do not allow browsing.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring"
+    ],
+    "drought": "low"
+  },
+  {
+    "id": "nightshade",
+    "name": "Deadly nightshade",
+    "scientific": "Atropa belladonna",
+    "aliases": [
+      "belladonna"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts, especially berries",
+    "why": "Tropane alkaloids make this an emergency-level avoid; do not handle as forage.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "toxic-weed",
+    "lifecycle": "perennial",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "buttercup",
+    "name": "Buttercup",
+    "scientific": "Ranunculus spp.",
+    "aliases": [
+      "crowfoot"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Fresh plant",
+    "why": "Fresh buttercup sap is irritating and toxic; do not intentionally offer it.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "toxic-weed",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "poison-hemlock",
+    "name": "Poison hemlock",
+    "scientific": "Conium maculatum",
+    "aliases": [
+      "hemlock"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts",
+    "why": "Piperidine alkaloids can cause severe neurologic poisoning; never collect uncertain umbellifers.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "toxic-weed",
+    "lifecycle": "biennial",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "jimsonweed",
+    "name": "Jimsonweed",
+    "scientific": "Datura stramonium",
+    "aliases": [
+      "thorn apple",
+      "devil's trumpet"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "All parts, especially seeds",
+    "why": "Anticholinergic alkaloids make this a dangerous pasture contaminant.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "toxic-weed",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  },
+  {
+    "id": "castor-bean",
+    "name": "Castor bean",
+    "scientific": "Ricinus communis",
+    "aliases": [
+      "castor plant"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Seeds and plant",
+    "why": "Ricin in chewed seeds is highly dangerous; keep plants and seed heads inaccessible.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "annual",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "drought": "moderate"
+  },
+  {
+    "id": "lantana",
+    "name": "Lantana",
+    "scientific": "Lantana camara",
+    "aliases": [
+      "Spanish flag"
+    ],
+    "status": {
+      "rabbit": "avoid",
+      "hen": "avoid"
+    },
+    "part": "Leaves and berries",
+    "why": "Triterpenes can cause gastrointestinal and liver injury; keep trimmings away.",
+    "level": "advanced",
+    "sources": [
+      "aspca-toxic",
+      "merck-plants"
+    ],
+    "category": "ornamental",
+    "lifecycle": "perennial",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "drought": "high"
+  }
 ]
