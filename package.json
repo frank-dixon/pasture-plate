@@ -1,0 +1,22 @@
+{
+  "name": "pasture-plate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fast forage and toxicity quick-check for rabbits and hens.",
+  "scripts": {
+    "build": "npm run clean && npm run build:css && npm run build:js && npm run copy:site",
+    "clean": "rm -rf docs/css/app.css docs/js/app.js",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./docs/css/app.css --minify",
+    "build:js": "esbuild ./src/js/app.js --bundle --minify --outfile=./docs/js/app.js",
+    "copy:site": "cp src/index.html docs/index.html && cp src/manifest.webmanifest docs/manifest.webmanifest && cp src/sw.js docs/sw.js && cp src/robots.txt docs/robots.txt && cp src/data/plants.json docs/data/plants.json && cp src/icons/* docs/icons/",
+    "watch:css": "tailwindcss -i ./src/css/input.css -o ./docs/css/app.css --watch",
+    "watch:js": "esbuild ./src/js/app.js --bundle --minify --watch --outfile=./docs/js/app.js",
+    "watch": "concurrently -k -n CSS,JS -c green,blue \"npm:watch:css\" \"npm:watch:js\""
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.25.10",
+    "tailwindcss": "^3.4.17"
+  }
+}

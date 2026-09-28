@@ -1,0 +1,10 @@
+{
+  "name": "Pasture Plate · forage quick-check",
+  "short_name": "Pasture Plate",
+  "description": "A cited plant safety quick-check for rabbits and hens.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4eedf",
+  "theme_color": "#19352b",
+  "icons": [{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+}
