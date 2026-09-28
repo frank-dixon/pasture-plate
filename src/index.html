@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#19352b">
+  <meta name="theme-color" content="#F7F3EA">
   <meta name="description" content="A calm, cited quick-check for plants around rabbits and hens.">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -11,7 +11,7 @@
   <title>Pasture Plate · forage quick-check</title>
 </head>
 <body>
-  <header class="border-b border-[#d9e1cf] bg-[#f8f5eb]/90 backdrop-blur">
+  <header class="border-b border-[#e4ddd0] bg-straw/90 backdrop-blur">
     <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Primary navigation">
       <a href="#top" class="flex items-center gap-3" aria-label="Pasture Plate home">
         <span class="grid h-10 w-10 place-items-center rounded-2xl bg-moss text-xl text-white shadow-sm">✳</span>
@@ -29,13 +29,13 @@
         <p class="mt-6 max-w-xl text-lg leading-8 text-[#557064]">A quick, cited screen for the weeds, garden greens, and pasture plants that may end up near your rabbits or hens.</p>
         <div class="mt-7 flex flex-wrap gap-2 text-sm font-semibold text-moss"><span class="rounded-full bg-sage px-3 py-2">50 plants</span><span class="rounded-full bg-sage px-3 py-2">works offline</span><span class="rounded-full bg-sage px-3 py-2">sources included</span></div>
       </div>
-      <div class="relative overflow-hidden rounded-[2rem] bg-moss p-7 text-white shadow-soft sm:p-9">
-        <div class="absolute -right-10 -top-12 h-44 w-44 rounded-full border-[22px] border-white/10"></div>
-        <div class="absolute -bottom-20 -left-10 h-52 w-52 rounded-full border-[28px] border-honey/20"></div>
-        <p class="eyebrow text-honey">Start here</p>
+      <div class="relative overflow-hidden rounded-[2rem] border border-[#e4ddd0] bg-paper p-7 text-ink shadow-soft sm:p-9">
+        <div class="absolute -right-10 -top-12 h-44 w-44 rounded-full border-[22px] border-moss/10"></div>
+        <div class="absolute -bottom-20 -left-10 h-52 w-52 rounded-full border-[28px] border-honey/30"></div>
+        <p class="eyebrow">Start here</p>
         <p class="mt-3 max-w-sm font-display text-3xl font-bold leading-tight">Search a plant before it becomes a snack.</p>
-        <p class="mt-4 text-sm leading-6 text-white/75">Not a diagnosis or a feeding prescription. When an animal has eaten a possibly toxic plant, call your veterinarian or a poison service.</p>
-        <a href="#checker" class="mt-7 inline-flex items-center gap-2 rounded-full bg-honey px-5 py-3 text-sm font-bold text-ink transition hover:bg-[#f0c978]">Open the checker <span aria-hidden="true">↓</span></a>
+        <p class="mt-4 text-sm leading-6 text-[#557064]">Not a diagnosis or a feeding prescription. When an animal has eaten a possibly toxic plant, call your veterinarian or a poison service.</p>
+        <a href="#checker" class="mt-7 inline-flex items-center gap-2 rounded-full bg-moss px-5 py-3 text-sm font-bold text-white transition hover:bg-leaf">Open the checker <span aria-hidden="true">↓</span></a>
       </div>
     </section>
 
@@ -45,9 +45,9 @@
           <div><p class="eyebrow">Quick check</p><h2 class="mt-2 font-display text-3xl font-bold">Find a plant</h2></div>
           <div class="flex rounded-full bg-sage p-1" role="group" aria-label="Detail level"><button class="mode-button pill-active rounded-full px-4 py-2 text-sm font-bold" data-mode="simple">Simple</button><button class="mode-button rounded-full px-4 py-2 text-sm font-bold text-moss" data-mode="advanced">Advanced</button></div>
         </div>
-        <label class="relative mt-6 block"><span class="sr-only">Search plants</span><span class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-xl text-moss">⌕</span><input id="search" type="search" autocomplete="off" placeholder="Try dandelion, clover, foxglove…" class="w-full rounded-2xl border-2 border-[#d9e1cf] bg-[#fffdf7] py-4 pl-12 pr-4 text-base outline-none transition placeholder:text-[#93a399] focus:border-moss focus:ring-4 focus:ring-sage"></label>
+        <label class="relative mt-6 block"><span class="sr-only">Search plants</span><span class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-xl text-moss">⌕</span><input id="search" type="search" autocomplete="off" placeholder="Try dandelion, clover, foxglove…" class="w-full rounded-2xl border-2 border-[#e4ddd0] bg-paper py-4 pl-12 pr-4 text-base outline-none transition placeholder:text-[#93a399] focus:border-moss focus:ring-4 focus:ring-sage"></label>
         <div class="mt-4 flex flex-wrap items-center gap-2" role="group" aria-label="Animal filter"><span class="mr-1 text-sm font-bold text-[#557064]">For:</span><button class="animal-button pill pill-active" data-animal="all">Everyone</button><button class="animal-button pill" data-animal="rabbit">🐇 Rabbits</button><button class="animal-button pill" data-animal="hen">🐔 Hens</button></div>
-        <div id="summary" class="mt-7 flex items-center justify-between gap-4 border-b border-[#e5eadc] pb-4 text-sm text-[#557064]"></div>
+        <div id="summary" class="mt-7 flex items-center justify-between gap-4 border-b border-[#ebe4d6] pb-4 text-sm text-[#557064]"></div>
         <div id="results" class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-live="polite"></div>
         <div id="empty" class="hidden rounded-2xl bg-sage/60 p-8 text-center"><p class="font-display text-2xl font-bold">No match yet.</p><p class="mt-2 text-sm text-[#557064]">Try a common name, or search “unknown” to see what still needs checking.</p></div>
       </div>
@@ -59,13 +59,13 @@
       <article class="soft-card p-6"><span class="grid h-10 w-10 place-items-center rounded-2xl bg-[#f8ddd5] text-xl">×</span><h3 class="mt-5 font-display text-2xl font-bold">Red means step away</h3><p class="mt-2 text-sm leading-6 text-[#557064]">Do not feed a plant marked avoid. If it was eaten, contact a veterinarian promptly.</p></article>
     </section>
 
-    <section class="mt-12 rounded-[2rem] bg-[#e8eeda] p-6 sm:p-8" id="sources">
+    <section class="mt-12 rounded-[2rem] bg-[#efe9dc] p-6 sm:p-8" id="sources">
       <div class="flex flex-col justify-between gap-4 sm:flex-row"><div><p class="eyebrow">How to use this</p><h2 class="mt-2 font-display text-3xl font-bold">Small guide, careful claims.</h2></div><span class="self-start rounded-full bg-white/70 px-3 py-2 text-xs font-bold text-moss">Last reviewed · Sep 2026</span></div>
       <div class="mt-6 grid gap-4 text-sm leading-6 text-[#557064] md:grid-cols-2"><p>Pasture Plate is an educational quick-check. “Safe” means the cited reference supports the plant as non-toxic or commonly used as forage; it does not set a portion size. Introduce any new food slowly and avoid sprayed or contaminated plants.</p><p>Plant identification is the first safety step. Common names overlap. If a plant is uncertain, treat it as unknown. For suspected poisoning, contact your veterinarian or a poison-control service instead of waiting for symptoms.</p></div>
-      <div id="source-list" class="mt-7 border-t border-[#cbd8bd] pt-5"></div>
+      <div id="source-list" class="mt-7 border-t border-[#e0d8c8] pt-5"></div>
     </section>
   </main>
-  <footer class="border-t border-[#d9e1cf] px-5 py-7 text-center text-xs text-[#6b8176]"><p>Pasture Plate · built for calm, quick checks · <a class="font-semibold text-moss underline" href="https://frank-dixon.github.io" target="_blank" rel="noreferrer">frank-dixon.github.io</a></p></footer>
+  <footer class="border-t border-[#e4ddd0] px-5 py-7 text-center text-xs text-[#6b8176]"><p>Pasture Plate · built for calm, quick checks · <a class="font-semibold text-moss underline" href="https://frank-dixon.github.io" target="_blank" rel="noreferrer">frank-dixon.github.io</a></p></footer>
   <script src="js/app.js" defer></script>
 </body>
 </html>

@@ -11,8 +11,8 @@
 }
 @layer components {
   .eyebrow { @apply text-[11px] font-bold uppercase tracking-[.18em] text-moss; }
-  .soft-card { @apply rounded-3xl border border-[#d9e1cf] bg-white/80 shadow-soft; }
-  .pill { @apply rounded-full border border-[#d4dfca] bg-white px-3 py-1.5 text-sm font-semibold text-ink transition hover:border-moss hover:bg-sage; }
+  .soft-card { @apply rounded-3xl border border-[#e4ddd0] bg-paper/90 shadow-soft; }
+  .pill { @apply rounded-full border border-[#e0d8c8] bg-white px-3 py-1.5 text-sm font-semibold text-ink transition hover:border-moss hover:bg-sage; }
   .pill-active { @apply border-moss bg-moss text-white hover:bg-moss; }
   .status-safe { @apply bg-[#dcebd6] text-[#245a3f]; }
   .status-caution { @apply bg-[#fff0c8] text-[#7a5613]; }
