@@ -43,9 +43,9 @@ const els = {
 // Cited reference links shown on cards / sources section
 const sourceInfo = {
   'rabbit-diet': { label: 'Rabbit Welfare Association & Fund · rabbit diet', url: 'https://rabbitwelfare.co.uk/rabbit-care-advice/rabbit-diet/' },
-  'poultry-feed': { label: 'Merck Veterinary Manual · feeding poultry', url: 'https://www.merckvetmanual.com/poultry/nutrition-and-management-of-poultry/feeding-poultry' },
+  'poultry-feed': { label: 'Merck Veterinary Manual · nutritional requirements of poultry', url: 'https://www.merckvetmanual.com/poultry/nutrition-and-management-poultry/nutritional-requirements-of-poultry' },
   'aspca-toxic': { label: 'ASPCA · toxic and non-toxic plants', url: 'https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants' },
-  'merck-plants': { label: 'Merck Veterinary Manual · overview of plant poisoning', url: 'https://www.merckvetmanual.com/toxicology/plant-poisoning/overview-of-plant-poisoning' }
+  'merck-plants': { label: 'Merck Veterinary Manual · poisonous plants', url: 'https://www.merckvetmanual.com/toxicology/poisonous-plants' }
 };
 
 const labels = { safe: 'Good starting point', caution: 'Use care', avoid: 'Avoid', unknown: 'Needs checking' };
@@ -158,7 +158,7 @@ function card(plant) {
   return `<article class="group rounded-2xl border border-[#ebe4d6] bg-paper p-4 transition hover:-translate-y-0.5 hover:border-moss hover:shadow-md">
     <div class="flex items-start justify-between gap-3">
       <div>
-        <h3 class="font-display text-xl font-bold">${escapeHtml(plant.name)}</h3>
+        <h3 class="text-lg font-semibold leading-snug">${escapeHtml(plant.name)}</h3>
         <p class="mt-0.5 text-xs italic text-[#789086]">${escapeHtml(plant.scientific)}</p>
       </div>
       <span class="${statusClass[status]} shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold">${labels[status]}</span>
@@ -224,7 +224,7 @@ function showDetail(id) {
     <div class="flex items-start justify-between gap-4">
       <div>
         <span class="${statusClass[status]} inline-flex rounded-full px-3 py-1 text-xs font-bold">${labels[status]}</span>
-        <h2 class="mt-4 font-display text-4xl font-bold">${escapeHtml(p.name)}</h2>
+        <h2 class="mt-4 text-3xl font-semibold tracking-tight">${escapeHtml(p.name)}</h2>
         <p class="mt-1 text-sm italic text-[#789086]">${escapeHtml(p.scientific)}</p>
         <div class="mt-3 flex flex-wrap gap-1.5">${metaChip(catLabel)}${metaChip(lifeLabel)}</div>
       </div>

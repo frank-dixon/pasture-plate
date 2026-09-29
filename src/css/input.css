@@ -39,3 +39,39 @@
            transition hover:bg-moss hover:text-white;
   }
 }
+
+/* Field-guide take on the hex-dial system: leaf → teal two-stop, hex tiles,
+   and status pills that carry a glyph + border style so they read without color */
+@layer base {
+  :root { --pp-a: #3f8a3c; --pp-b: #0b8a8f; }
+  body { font-family: theme('fontFamily.sans'); }
+  .font-display { font-weight: 400; letter-spacing: 0; }
+  :focus-visible { outline: 2px solid var(--pp-b); outline-offset: 2px; }
+}
+@layer components {
+  .pp-hex {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: linear-gradient(135deg, var(--pp-a), var(--pp-b));
+  }
+  .pp-cta { background: linear-gradient(90deg, var(--pp-a), var(--pp-b)); }
+  .pp-cta:hover { filter: brightness(1.08); }
+  .pp-accent-rule { border-image: linear-gradient(90deg, var(--pp-a), var(--pp-b)) 1; }
+  .pp-lattice {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48.5' viewBox='0 0 28 48.5'%3E%3Cpath d='M14 0v8.1M14 48.5v-8.1M0 16.2l14-8.1 14 8.1v16.1l-14 8.1-14-8.1z' fill='none' stroke='%233f8a3c' stroke-opacity='.07'/%3E%3C/svg%3E");
+    background-position: -14px 0;
+  }
+  .status-safe, .status-caution, .status-avoid, .status-unknown {
+    @apply inline-flex items-center gap-1 border;
+  }
+  .status-safe::before, .status-caution::before, .status-avoid::before, .status-unknown::before {
+    @apply font-mono text-[1.05em] leading-none;
+  }
+  .status-safe { @apply border-solid border-[#245a3f]/40; }
+  .status-safe::before { content: "✓"; }
+  .status-caution { @apply border-dashed border-[#7a5613]/60; }
+  .status-caution::before { content: "!"; }
+  .status-avoid { @apply border-double border-[3px] border-[#8b3e32]/50; }
+  .status-avoid::before { content: "✕"; }
+  .status-unknown { @apply border-dotted border-slate-400; }
+  .status-unknown::before { content: "?"; }
+}
